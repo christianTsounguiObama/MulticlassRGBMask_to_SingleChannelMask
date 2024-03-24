@@ -15,6 +15,8 @@ run the following command to perform the conversion:
 python3 rgbmask_to_singlechannelmask.py
 ```
 
+<img src="/home/christian/Documents/Artifitial_Intelligence/MulticlassRGBMask_to_SingleChannelMask/illustration/illustration.svg" alt="Alt text" title="Illustration">
+
 ## Python version and packages
 The code was written and tested with Python 3.10.12. The following packages might need to installed:
 - cv2
