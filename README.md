@@ -8,7 +8,7 @@ a single channel (more precisely, 3 identical channels) mask and saved in a give
 The code uses class-color mapping defined in a csv file, but can be easily adapted to accommodate mapping
 provided in other formats, or provided in code as an array.
 
-![illustration](https://github.com/christianTsounguiObama/MulticlassRGBMask_to_SingleChannelMask/assets/104940386/a6ca4c45-6d7c-4bb1-8a18-d9b181b2ecf7)
+![illustration](https://github.com/christianTsounguiObama/MulticlassRGBMask_to_SingleChannelMask/assets/104940386/43476366-5d89-4df3-860f-ca8365a0bf37)
 
 ## Usage
 Once the paths for the rgb masks folder, output folder, and class-color mapping file are defined in the script,
