@@ -3,8 +3,12 @@
 '''
     This script is aimed at helping with the preparation of RGB masks for use to train computer vision models
     for semantic segmentation.
+
     The RGB masks that label each class in a picture of interest by a specified color are converted into
     a single channel (more precisely, 3 identical channels) mask and saved in a given folder. 
+
+    The code uses class-color mapping defined in a csv file, but can be easily adapted to accomodate mapping
+    provided in other formats, or provided in code as an array.
     
     Thank you to all the people who shared pieces of codes which inspired this script. Feel free to use, 
     share, and modify as you wish :)
@@ -93,9 +97,9 @@ def main():
 
 if __name__ == '__main__':
     # Define input and output folder paths
-    labelsdir = "/home/christian/Documents/Artifitial_Intelligence/MulticlassRGBMask_to_SingleChannelMask/dataset/train_labels"
-    preppedlabelsdir = "/home/christian/Documents/Artifitial_Intelligence/MulticlassRGBMask_to_SingleChannelMask/dataset/train_labels_prepped"
-    classcolorfilefolder = '/home/christian/Documents/Artifitial_Intelligence/MulticlassRGBMask_to_SingleChannelMask/dataset/class_dict.csv'
+    labelsdir = "/dataset/train_labels"
+    preppedlabelsdir = "/dataset/train_labels_prepped"
+    classcolorfilefolder = '/dataset/class_dict.csv'
 
     # Conversion
     main()
