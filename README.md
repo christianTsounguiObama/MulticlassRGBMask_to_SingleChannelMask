@@ -8,6 +8,8 @@ a single channel (more precisely, 3 identical channels) mask and saved in a give
 The code uses class-color mapping defined in a csv file, but can be easily adapted to accomodate mapping
 provided in other formats, or provided in code as an array.
 
+![illustration](https://github.com/christianTsounguiObama/MulticlassRGBMask_to_SingleChannelMask/assets/104940386/a6ca4c45-6d7c-4bb1-8a18-d9b181b2ecf7)
+
 ## Usage
 Once the paths for the rgb masks folder, output folder, and class-color mapping file are defined in the script,
 run the following command to perform the conversion:
@@ -15,7 +17,6 @@ run the following command to perform the conversion:
 python3 rgbmask_to_singlechannelmask.py
 ```
 
-<img src="/home/christian/Documents/Artifitial_Intelligence/MulticlassRGBMask_to_SingleChannelMask/illustration/illustration.svg" alt="Alt text" title="Illustration">
 
 ## Python version and packages
 The code was written and tested with Python 3.10.12. The following packages might need to installed:
