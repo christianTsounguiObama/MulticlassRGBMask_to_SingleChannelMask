@@ -10,7 +10,7 @@ provided in other formats, or provided in code as an array.
 
 ## Usage
 ```bash
-    python3 rgbmask_to_singlechannelmask.py
+python3 rgbmask_to_singlechannelmask.py
 ```
 
 ## Python version and packages
