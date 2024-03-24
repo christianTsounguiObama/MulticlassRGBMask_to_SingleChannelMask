@@ -31,4 +31,6 @@ contains the converted single channel masks.
 
 ## Acknowledgment
 Thank you to all the people who shared pieces of codes which inspired this script. Feel free to use, 
-share, and modify as you wish :)
+share, and modify as you wish.
+
+Any feedback will be highly appreciated :)
