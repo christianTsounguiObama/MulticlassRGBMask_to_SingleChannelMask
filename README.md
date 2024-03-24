@@ -9,6 +9,8 @@ The code uses class-color mapping defined in a csv file, but can be easily adapt
 provided in other formats, or provided in code as an array.
 
 ## Usage
+Once the paths for the rgb masks folder, output folder, and class-color mapping file are defined in the script,
+run the following command to perform the conversion.
 ```bash
     python3 rgbmask_to_singlechannelmask.py
 ```
