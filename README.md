@@ -5,7 +5,7 @@ for semantic segmentation.
 The RGB masks that label each class in a picture of interest by a specified color are converted into
 a single channel (more precisely, 3 identical channels) mask and saved in a given folder. 
 
-The code uses class-color mapping defined in a csv file, but can be easily adapted to accomodate mapping
+The code uses class-color mapping defined in a csv file, but can be easily adapted to accommodate mapping
 provided in other formats, or provided in code as an array.
 
 ![illustration](https://github.com/christianTsounguiObama/MulticlassRGBMask_to_SingleChannelMask/assets/104940386/a6ca4c45-6d7c-4bb1-8a18-d9b181b2ecf7)
