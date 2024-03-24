@@ -87,12 +87,16 @@ def singleChannelMaskConversion(inputfolder, outputfolder, classcolorfilefolder)
         # Save single channel mask to output folder with same name as rgb mask
         cv2.imwrite(output_path, mask)
 
-    print(f"All files successfully converted to single chanel masks. Find them in: {outputfolder}")
+def main():
+    # Convert images to grayscale
+    singleChannelMaskConversion(labelsdir, preppedlabelsdir, classcolorfilefolder)
 
-# Input and output folder paths
-labelsdir = "/home/christian/Documents/Artifitial_Intelligence/MulticlassRGBMask_to_SingleChannelMask/dataset/train_labels"
-preppedlabelsdir = "/home/christian/Documents/Artifitial_Intelligence/MulticlassRGBMask_to_SingleChannelMask/dataset/train_labels_prepped"
-classcolorfilefolder = '/home/christian/Documents/Artifitial_Intelligence/MulticlassRGBMask_to_SingleChannelMask/dataset/class_dict.csv'
+if __name__ == '__main__':
+    # Define input and output folder paths
+    labelsdir = "/home/christian/Documents/Artifitial_Intelligence/MulticlassRGBMask_to_SingleChannelMask/dataset/train_labels"
+    preppedlabelsdir = "/home/christian/Documents/Artifitial_Intelligence/MulticlassRGBMask_to_SingleChannelMask/dataset/train_labels_prepped"
+    classcolorfilefolder = '/home/christian/Documents/Artifitial_Intelligence/MulticlassRGBMask_to_SingleChannelMask/dataset/class_dict.csv'
 
-# Convert images to grayscale
-singleChannelMaskConversion(labelsdir, preppedlabelsdir, classcolorfilefolder)
+    # Conversion
+    main()
+    print(f"All files successfully converted to single chanel masks. Find them in: {preppedlabelsdir}")

@@ -9,3 +9,11 @@ Thank you to all the people who shared pieces of codes which inspired this scrip
 share, and modify as you wish :)
 
 Usage: python3 rgbmask_to_singlechannelmask.py
+
+# Example dataset
+To test the code, we provide you with a dataset of three pictures extracted from the CAMVID dataset downloaded at 
+https://www.kaggle.com/datasets/carlolepelaars/camvid. The 'train' folder contains the groud truth images, 
+the 'train_labels' folder contains the labeled RGB masks of each of the ground truth images, and the 'train_labels_prepped' 
+contains the converted single channel masks.
+
+
